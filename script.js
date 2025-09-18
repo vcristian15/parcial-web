@@ -30,5 +30,17 @@ const printData = (data) => {
                 <p class="weight"> Peso: ${data.weight} KG</p>
             </div>
         </div>
+
+                <div class="pokemon-box">
+
+            <div class="img">
+                <img src="${data.sprites.back_default}" alt="" class="poke-img">
+            </div>
+            <div class="poke-info">
+                <p class="name">Nombre: ${data.name}</p>
+                <p class="id">ID: ${data.id}</p>
+                <p class="weight"> Peso: ${data.weight} KG</p>
+            </div>
+        </div>
     `
 }
