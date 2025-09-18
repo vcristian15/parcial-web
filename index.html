@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Pokemon</title>
+</head>
+<body class = "container">
+
+    <div class="header">
+        <img src="https://i.postimg.cc/NjTnf833/pngwing-com-1.png" class="header-img" alt="">
+    </div>
+
+    <div class = "title">
+        <div class="text">
+            <h1>Ingresa el nombre de un pokemon</h1>
+        </div>
+        <div class="example">
+            <p>(Ejemplo: Pikachu)</p>
+        </div>
+    </div>
+    
+    <div class = "search">
+        <input type="text" id ="searcher">
+        <button class = "search-button" onclick="obtenerValorInput()">Buscar</button>
+    </div>
+
+    <div id="show-info">
+        
+    </div>
+
+</body>
+</html>
